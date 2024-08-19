@@ -1,0 +1,10 @@
+dev\justin\movie\MovieController.class
+dev\justin\movie\MovieRepository.class
+dev\justin\movie\ReviewService.class
+dev\justin\movie\config\WebMvcConfig.class
+dev\justin\movie\Movie.class
+dev\justin\movie\Review.class
+dev\justin\movie\MovieService.class
+dev\justin\movie\ReviewController.class
+dev\justin\movie\ReviewRepository.class
+dev\justin\movie\MovieApplication.class
