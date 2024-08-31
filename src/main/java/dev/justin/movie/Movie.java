@@ -1,14 +1,15 @@
 package dev.justin.movie;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import java.util.List;
+
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 // We have to annotate this class as a document to let the Framework know that this class represents each document in the movies collection
 // We will also declare the name of the collection as "movies"
@@ -27,6 +28,8 @@ public class Movie {
     private ObjectId id;
     private String imdbId;
     private String title;
+    private String director;
+    private String overview;
     private String releaseDate;
     private String trailerLink;
     private String poster;
